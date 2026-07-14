@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import BeforeAfter from "@/components/BeforeAfter";
 import WhyChoose from "@/components/WhyChoose";
 import Services from "@/components/Services";
 import Gallery from "@/components/Gallery";
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <BeforeAfter />
         <WhyChoose />
         <Services />
         <Gallery />

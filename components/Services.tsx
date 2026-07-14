@@ -1,4 +1,5 @@
 import Reveal from "./Reveal";
+import { Stagger, StaggerItem } from "./motion";
 import { Check } from "./Icons";
 import { SERVICES, DIRTY_FEE_NOTICE, PRICING_DISCLAIMER } from "@/lib/data";
 import { ADD_ONS, formatUSD } from "@/lib/pricing";
@@ -18,11 +19,11 @@ export default function Services() {
         </Reveal>
 
         {/* Package cards */}
-        <div className="mt-14 grid gap-5 lg:grid-cols-4 md:grid-cols-2">
-          {SERVICES.map((svc, i) => (
-            <Reveal key={svc.name} delay={i * 70}>
+        <Stagger className="mt-14 grid gap-5 lg:grid-cols-4 md:grid-cols-2">
+          {SERVICES.map((svc) => (
+            <StaggerItem key={svc.name} className="h-full">
               <article
-                className={`relative flex h-full flex-col rounded-2xl p-7 ${
+                className={`card-hover relative flex h-full flex-col rounded-2xl p-7 ${
                   svc.popular
                     ? "bg-gradient-to-b from-[#232323] to-[#141414] ring-chrome"
                     : "card-surface"
@@ -77,9 +78,9 @@ export default function Services() {
                   Book {svc.name}
                 </a>
               </article>
-            </Reveal>
+            </StaggerItem>
           ))}
-        </div>
+        </Stagger>
 
         {/* Add-ons */}
         <Reveal>

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { GALLERY } from "@/lib/data";
 import { Close, ArrowRight } from "./Icons";
+import { Stagger, StaggerItem } from "./motion";
 
 export default function Gallery() {
   const [index, setIndex] = useState<number | null>(null);
@@ -41,13 +42,13 @@ export default function Gallery() {
           The finish speaks for itself.
         </h2>
 
-        <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <Stagger className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4" gap={0.06}>
           {GALLERY.map((img, i) => (
+            <StaggerItem key={img.src} className="h-full">
             <button
-              key={img.src}
               type="button"
               onClick={() => setIndex(i)}
-              className="group relative aspect-[4/3] overflow-hidden rounded-xl border border-line focus:outline-none focus:ring-2 focus:ring-chrome"
+              className="group relative aspect-[4/3] w-full overflow-hidden rounded-xl border border-line focus:outline-none focus:ring-2 focus:ring-chrome"
               aria-label={`View ${img.caption}`}
             >
               <Image
@@ -61,8 +62,9 @@ export default function Gallery() {
                 {img.caption}
               </span>
             </button>
+            </StaggerItem>
           ))}
-        </div>
+        </Stagger>
       </div>
 
       {open && index !== null && (
