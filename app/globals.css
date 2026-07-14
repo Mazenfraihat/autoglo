@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   Auto Glo — Design System (black / grey / chrome)
+   ============================================================ */
+@theme {
+  --color-ink: #0a0a0a; /* base black */
+  --color-surface: #141414; /* raised black */
+  --color-card: #1e1e1e; /* card surface */
+  --color-line: #2a2a2a; /* hairline borders */
+  --color-muted: #9ca3af; /* secondary text */
+  --color-chrome: #e5e7eb; /* chrome light */
+
+  --font-display: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    background: var(--color-ink);
+    color: #ffffff;
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: #e5e7eb;
+    color: #0a0a0a;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ---------- Chrome / metallic utilities ---------- */
+.text-chrome {
+  background: linear-gradient(180deg, #ffffff 0%, #e5e7eb 40%, #9ca3af 74%, #d1d5db 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.btn-chrome {
+  background: linear-gradient(180deg, #f4f5f7 0%, #d6dade 52%, #b7bcc3 100%);
+  color: #0a0a0a;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15),
+    0 10px 30px -12px rgba(229, 231, 235, 0.35);
+  transition: filter 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.btn-chrome:hover {
+  filter: brightness(1.07);
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.8),
+    0 16px 36px -12px rgba(229, 231, 235, 0.5);
+}
+.btn-outline {
+  border: 1px solid var(--color-line);
+  color: #fff;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+.btn-outline:hover {
+  border-color: rgba(229, 231, 235, 0.6);
+  background: rgba(255, 255, 255, 0.03);
+  transform: translateY(-1px);
+}
+.chrome-hairline {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(156, 163, 175, 0.35) 25%,
+    #e5e7eb 50%,
+    rgba(156, 163, 175, 0.35) 75%,
+    transparent
+  );
+}
+.card-surface {
+  background: linear-gradient(180deg, #1e1e1e, #141414);
+  border: 1px solid var(--color-line);
+}
+.ring-chrome {
+  box-shadow: 0 0 0 1px rgba(229, 231, 235, 0.25), 0 24px 60px -30px rgba(0, 0, 0, 0.9);
+}
+
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }

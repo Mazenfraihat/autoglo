@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="660" viewBox="0 0 880 660" role="img" aria-label="Wheel Detail">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17181b"/>
+      <stop offset="0.55" stop-color="#0e0f11"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.02" r="0.9">
+      <stop offset="0" stop-color="#4a4e55" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#26282c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#e5e7eb"/>
+      <stop offset="0.8" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#d1d5db"/>
+    </linearGradient>
+    <radialGradient id="bead" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dfe4ea" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#5b6672" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="660" fill="url(#bg)"/>
+  <ellipse cx="440" cy="-33" rx="660" ry="429" fill="url(#light)"/>
+  <g transform="rotate(-18 440 330)">
+    <rect x="-176" y="118.8" width="1232" height="105.60000000000001" fill="url(#streak)"/>
+  </g>
+  
+      <g opacity="0.79">
+        <circle cx="555.5" cy="337.3" r="7.3" fill="url(#bead)"/>
+        <circle cx="553.3" cy="334.7" r="2.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.57">
+        <circle cx="437.9" cy="473.0" r="7.6" fill="url(#bead)"/>
+        <circle cx="435.6" cy="470.4" r="2.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.77">
+        <circle cx="347.1" cy="327.6" r="3.0" fill="url(#bead)"/>
+        <circle cx="346.2" cy="326.5" r="0.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.65">
+        <circle cx="519.0" cy="416.3" r="8.7" fill="url(#bead)"/>
+        <circle cx="516.4" cy="413.3" r="2.4" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.76">
+        <circle cx="466.6" cy="325.4" r="5.2" fill="url(#bead)"/>
+        <circle cx="465.1" cy="323.5" r="1.5" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.77">
+        <circle cx="343.8" cy="523.5" r="5.0" fill="url(#bead)"/>
+        <circle cx="342.3" cy="521.7" r="1.4" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.57">
+        <circle cx="381.8" cy="468.9" r="9.4" fill="url(#bead)"/>
+        <circle cx="379.0" cy="465.6" r="2.6" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.50">
+        <circle cx="433.2" cy="366.4" r="10.1" fill="url(#bead)"/>
+        <circle cx="430.2" cy="362.9" r="2.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.73">
+        <circle cx="251.2" cy="378.9" r="9.6" fill="url(#bead)"/>
+        <circle cx="248.3" cy="375.6" r="2.7" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.66">
+        <circle cx="446.6" cy="336.2" r="7.3" fill="url(#bead)"/>
+        <circle cx="444.4" cy="333.6" r="2.0" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.60">
+        <circle cx="387.7" cy="353.7" r="5.8" fill="url(#bead)"/>
+        <circle cx="385.9" cy="351.7" r="1.6" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.69">
+        <circle cx="397.1" cy="342.7" r="8.2" fill="url(#bead)"/>
+        <circle cx="394.6" cy="339.8" r="2.3" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.57">
+        <circle cx="422.7" cy="384.7" r="6.1" fill="url(#bead)"/>
+        <circle cx="420.8" cy="382.5" r="1.7" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.83">
+        <circle cx="368.5" cy="382.9" r="7.7" fill="url(#bead)"/>
+        <circle cx="366.2" cy="380.2" r="2.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.48">
+        <circle cx="393.9" cy="391.3" r="10.5" fill="url(#bead)"/>
+        <circle cx="390.7" cy="387.6" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.48">
+        <circle cx="271.4" cy="261.4" r="8.8" fill="url(#bead)"/>
+        <circle cx="268.7" cy="258.3" r="2.5" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.82">
+        <circle cx="499.9" cy="285.6" r="10.3" fill="url(#bead)"/>
+        <circle cx="496.8" cy="282.0" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.81">
+        <circle cx="622.2" cy="356.9" r="10.4" fill="url(#bead)"/>
+        <circle cx="619.1" cy="353.3" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.80">
+        <circle cx="345.6" cy="534.2" r="4.6" fill="url(#bead)"/>
+        <circle cx="344.2" cy="532.6" r="1.3" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.53">
+        <circle cx="366.0" cy="194.4" r="5.5" fill="url(#bead)"/>
+        <circle cx="364.3" cy="192.4" r="1.5" fill="#ffffff" opacity="0.85"/>
+      </g>
+  <rect x="0" y="409.2" width="880" height="250.8" fill="url(#floor)"/>
+  <g transform="translate(52.8 567.6)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="14.08" letter-spacing="4" fill="#9ca3af">AUTO GLO</text>
+    <text x="0" y="39.6" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="31.679999999999996" fill="url(#chrome)">Wheel Detail</text>
+  </g>
+  <rect x="0" y="0" width="880" height="660" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+</svg>

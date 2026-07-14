@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="660" viewBox="0 0 880 660" role="img" aria-label="Showroom Finish">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17181b"/>
+      <stop offset="0.55" stop-color="#0e0f11"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.02" r="0.9">
+      <stop offset="0" stop-color="#4a4e55" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#26282c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#e5e7eb"/>
+      <stop offset="0.8" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#d1d5db"/>
+    </linearGradient>
+    <radialGradient id="bead" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dfe4ea" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#5b6672" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="880" height="660" fill="url(#bg)"/>
+  <ellipse cx="440" cy="-33" rx="660" ry="429" fill="url(#light)"/>
+  <g transform="rotate(-18 440 330)">
+    <rect x="-176" y="118.8" width="1232" height="105.60000000000001" fill="url(#streak)"/>
+  </g>
+  
+      <g opacity="0.80">
+        <circle cx="452.0" cy="497.5" r="8.7" fill="url(#bead)"/>
+        <circle cx="449.4" cy="494.4" r="2.4" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.53">
+        <circle cx="502.3" cy="436.7" r="6.4" fill="url(#bead)"/>
+        <circle cx="500.4" cy="434.5" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.51">
+        <circle cx="616.3" cy="381.3" r="6.9" fill="url(#bead)"/>
+        <circle cx="614.3" cy="378.9" r="1.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.49">
+        <circle cx="535.5" cy="439.5" r="7.6" fill="url(#bead)"/>
+        <circle cx="533.3" cy="436.8" r="2.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.84">
+        <circle cx="702.5" cy="447.7" r="10.4" fill="url(#bead)"/>
+        <circle cx="699.4" cy="444.1" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.48">
+        <circle cx="536.4" cy="362.7" r="3.8" fill="url(#bead)"/>
+        <circle cx="535.3" cy="361.3" r="1.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.45">
+        <circle cx="392.2" cy="240.8" r="10.6" fill="url(#bead)"/>
+        <circle cx="389.1" cy="237.1" r="3.0" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.77">
+        <circle cx="537.1" cy="497.1" r="3.6" fill="url(#bead)"/>
+        <circle cx="536.0" cy="495.9" r="1.0" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.62">
+        <circle cx="468.4" cy="220.9" r="6.7" fill="url(#bead)"/>
+        <circle cx="466.4" cy="218.5" r="1.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.83">
+        <circle cx="647.0" cy="292.5" r="10.9" fill="url(#bead)"/>
+        <circle cx="643.7" cy="288.7" r="3.0" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.72">
+        <circle cx="573.0" cy="439.1" r="6.3" fill="url(#bead)"/>
+        <circle cx="571.1" cy="436.9" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.62">
+        <circle cx="754.0" cy="280.6" r="10.2" fill="url(#bead)"/>
+        <circle cx="751.0" cy="277.0" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.73">
+        <circle cx="634.5" cy="404.3" r="6.3" fill="url(#bead)"/>
+        <circle cx="632.7" cy="402.1" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.48">
+        <circle cx="531.5" cy="386.6" r="10.5" fill="url(#bead)"/>
+        <circle cx="528.4" cy="382.9" r="2.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.62">
+        <circle cx="573.5" cy="534.6" r="5.4" fill="url(#bead)"/>
+        <circle cx="571.9" cy="532.7" r="1.5" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.60">
+        <circle cx="552.5" cy="364.3" r="6.7" fill="url(#bead)"/>
+        <circle cx="550.5" cy="362.0" r="1.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.45">
+        <circle cx="372.0" cy="411.1" r="8.9" fill="url(#bead)"/>
+        <circle cx="369.3" cy="408.0" r="2.5" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.48">
+        <circle cx="383.3" cy="329.9" r="10.2" fill="url(#bead)"/>
+        <circle cx="380.2" cy="326.4" r="2.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.64">
+        <circle cx="453.0" cy="359.2" r="5.7" fill="url(#bead)"/>
+        <circle cx="451.3" cy="357.2" r="1.6" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.69">
+        <circle cx="421.6" cy="472.2" r="6.6" fill="url(#bead)"/>
+        <circle cx="419.6" cy="469.9" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+  <rect x="0" y="409.2" width="880" height="250.8" fill="url(#floor)"/>
+  <g transform="translate(52.8 567.6)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="14.08" letter-spacing="4" fill="#9ca3af">AUTO GLO</text>
+    <text x="0" y="39.6" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="31.679999999999996" fill="url(#chrome)">Showroom Finish</text>
+  </g>
+  <rect x="0" y="0" width="880" height="660" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+</svg>

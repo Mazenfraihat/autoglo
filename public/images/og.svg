@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Auto Glo Mobile Detailing">
+  
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#17181b"/>
+      <stop offset="0.55" stop-color="#0e0f11"/>
+      <stop offset="1" stop-color="#070708"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.02" r="0.9">
+      <stop offset="0" stop-color="#4a4e55" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#26282c" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="streak" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#e5e7eb"/>
+      <stop offset="0.8" stop-color="#9ca3af"/>
+      <stop offset="1" stop-color="#d1d5db"/>
+    </linearGradient>
+    <radialGradient id="bead" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#dfe4ea" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#5b6672" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <ellipse cx="600" cy="-40" rx="820" ry="440" fill="url(#light)"/>
+  
+      <g opacity="0.58">
+        <circle cx="525.0" cy="353.4" r="3.9" fill="url(#bead)"/>
+        <circle cx="523.8" cy="352.0" r="1.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.77">
+        <circle cx="705.2" cy="293.7" r="7.4" fill="url(#bead)"/>
+        <circle cx="702.9" cy="291.1" r="2.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.75">
+        <circle cx="685.9" cy="291.5" r="6.5" fill="url(#bead)"/>
+        <circle cx="683.9" cy="289.2" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.85">
+        <circle cx="817.0" cy="317.6" r="6.6" fill="url(#bead)"/>
+        <circle cx="815.0" cy="315.3" r="1.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.70">
+        <circle cx="584.2" cy="329.2" r="5.0" fill="url(#bead)"/>
+        <circle cx="582.7" cy="327.5" r="1.4" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.67">
+        <circle cx="678.1" cy="310.8" r="9.8" fill="url(#bead)"/>
+        <circle cx="675.1" cy="307.4" r="2.7" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.60">
+        <circle cx="688.3" cy="348.7" r="7.1" fill="url(#bead)"/>
+        <circle cx="686.2" cy="346.3" r="2.0" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.78">
+        <circle cx="717.7" cy="316.4" r="4.0" fill="url(#bead)"/>
+        <circle cx="716.5" cy="314.9" r="1.1" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.52">
+        <circle cx="611.6" cy="188.0" r="8.1" fill="url(#bead)"/>
+        <circle cx="609.1" cy="185.1" r="2.3" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.69">
+        <circle cx="894.1" cy="401.5" r="6.1" fill="url(#bead)"/>
+        <circle cx="892.2" cy="399.4" r="1.7" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.64">
+        <circle cx="954.0" cy="285.5" r="9.6" fill="url(#bead)"/>
+        <circle cx="951.1" cy="282.1" r="2.7" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.64">
+        <circle cx="715.4" cy="279.4" r="3.1" fill="url(#bead)"/>
+        <circle cx="714.5" cy="278.3" r="0.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.71">
+        <circle cx="677.3" cy="491.1" r="6.6" fill="url(#bead)"/>
+        <circle cx="675.3" cy="488.8" r="1.9" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.52">
+        <circle cx="591.4" cy="464.9" r="8.0" fill="url(#bead)"/>
+        <circle cx="589.0" cy="462.1" r="2.2" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.62">
+        <circle cx="569.5" cy="256.7" r="10.0" fill="url(#bead)"/>
+        <circle cx="566.5" cy="253.3" r="2.8" fill="#ffffff" opacity="0.85"/>
+      </g>
+      <g opacity="0.75">
+        <circle cx="720.0" cy="344.1" r="8.6" fill="url(#bead)"/>
+        <circle cx="717.4" cy="341.1" r="2.4" fill="#ffffff" opacity="0.85"/>
+      </g>
+  <rect x="0" y="378" width="1200" height="252" fill="url(#floor)"/>
+  <text x="80" y="250" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="8" fill="#9ca3af">SERVING POMONA &amp; THE INLAND EMPIRE</text>
+  <text x="76" y="360" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="112" letter-spacing="2" fill="url(#chrome)">AUTO GLO</text>
+  <text x="80" y="420" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" letter-spacing="10" fill="#e5e7eb">MOBILE DETAILING</text>
+  <text x="80" y="500" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#9ca3af">Detail Driven, Showroom Glow — (909) 307-4711</text>
+  <rect x="80" y="530" width="360" height="2" fill="url(#chrome)"/>
+</svg>
