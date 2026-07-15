@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="flex flex-col justify-between gap-10 md:flex-row">
           <div className="max-w-sm">
             <div className="flex items-center gap-3">
-              <Image src="/logo.svg" alt="Auto Glo logo" width={48} height={48} className="h-12 w-12 rounded-full" />
+              <Image src="/logo.png" alt="Auto Glo Mobile Detailing logo" width={48} height={48} className="h-12 w-12 rounded-full" />
               <span className="font-display text-lg font-extrabold tracking-[0.22em] text-chrome">AUTO GLO</span>
             </div>
             <p className="font-display mt-4 text-sm font-semibold uppercase tracking-[0.16em] text-muted">
@@ -74,7 +74,17 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-line pt-6 text-xs text-muted sm:flex-row">
           <p>© {new Date().getFullYear()} {BUSINESS.name}. All rights reserved.</p>
-          <p>Detail Driven, Showroom Glow.</p>
+          <p>
+            Made with{" "}
+            <a
+              href="https://mazenfraihat.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-white/70 underline-offset-4 transition-colors hover:text-chrome hover:underline"
+            >
+              mazenfraihat.com
+            </a>
+          </p>
         </div>
       </div>
     </footer>

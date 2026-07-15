@@ -9,8 +9,8 @@ export default function About() {
         <Reveal>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl ring-chrome">
             <Image
-              src="/images/about-detail.svg"
-              alt="Detailer bringing out a deep gloss on luxury paint"
+              src="/images/about-interior.jpg"
+              alt="Auto Glo detailer restoring a luxury SUV interior"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover"

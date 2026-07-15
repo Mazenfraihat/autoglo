@@ -28,12 +28,13 @@ export default function BeforeAfter() {
     offset: ["start 0.85", "end 0.35"],
   });
 
-  // Revealed % of the "after" image (left → right). Start mostly "before".
-  const reveal = useMotionValue(reduce ? 50 : 14);
+  // Revealed % of the "after" image (left → right). Starts fully on "before"
+  // and sweeps to fully "after" as the section scrolls through the viewport.
+  const reveal = useMotionValue(reduce ? 50 : 4);
 
   useMotionValueEvent(scrollYProgress, "change", (p) => {
     if (reduce || touched.current || dragging.current) return;
-    reveal.set(14 + p * 72);
+    reveal.set(4 + p * 92);
   });
 
   const rightInset = useTransform(reveal, (v) => 100 - v);

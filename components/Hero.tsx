@@ -45,8 +45,8 @@ export default function Hero() {
       {/* Parallax background image */}
       <motion.div style={{ y: imgY }} className="absolute inset-x-0 -top-[8%] -z-20 h-[116%]">
         <Image
-          src="/images/hero-car.svg"
-          alt="Black luxury car under showroom lighting"
+          src="/images/hero-car.jpg"
+          alt="Black luxury sports car being detailed under studio lighting"
           fill
           priority
           sizes="100vw"

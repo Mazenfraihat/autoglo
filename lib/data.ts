@@ -127,16 +127,16 @@ export const PRICING_DISCLAIMER =
 export type GalleryImage = { src: string; alt: string; caption: string };
 
 export const GALLERY: GalleryImage[] = [
-  { src: "/images/gallery-ceramic-coating.svg", alt: "Ceramic coating application on black paint", caption: "Ceramic Coating" },
-  { src: "/images/gallery-foam-bath.svg", alt: "Two-step foam bath on a luxury car", caption: "Foam Bath" },
-  { src: "/images/gallery-interior-detail.svg", alt: "Restored luxury car interior", caption: "Interior Detail" },
-  { src: "/images/gallery-wheel-detail.svg", alt: "Intensive wheel and tire detail", caption: "Wheel Detail" },
-  { src: "/images/gallery-paint-correction.svg", alt: "Paint correction removing swirls", caption: "Paint Correction" },
-  { src: "/images/gallery-hand-wash.svg", alt: "Careful two-bucket hand wash", caption: "Hand Wash" },
-  { src: "/images/gallery-leather-care.svg", alt: "Leather conditioning on seats", caption: "Leather Care" },
-  { src: "/images/gallery-engine-bay.svg", alt: "Dressed and cleaned engine bay", caption: "Engine Bay" },
-  { src: "/images/gallery-headlight.svg", alt: "Restored clear headlight", caption: "Headlight Restoration" },
-  { src: "/images/gallery-trim.svg", alt: "Restored black exterior trim", caption: "Trim Restoration" },
-  { src: "/images/gallery-mobile-setup.svg", alt: "Mobile detailing setup at a driveway", caption: "Mobile Setup" },
-  { src: "/images/gallery-showroom-finish.svg", alt: "Finished car with a showroom glow", caption: "Showroom Finish" },
+  { src: "/images/gallery-foam-bath.jpg", alt: "Two-step foam bath on a black luxury car", caption: "Foam Bath" },
+  { src: "/images/gallery-paint-correction.jpg", alt: "Machine polishing during paint correction", caption: "Paint Correction" },
+  { src: "/images/gallery-ceramic-coating.jpg", alt: "Applying ceramic protection to paint", caption: "Ceramic Coating" },
+  { src: "/images/gallery-wheel-detail.jpg", alt: "Detailing a wheel with a brush", caption: "Wheel Detail" },
+  { src: "/images/gallery-interior-detail.jpg", alt: "Detailed luxury car interior console", caption: "Interior Detail" },
+  { src: "/images/gallery-hand-wash.jpg", alt: "Careful hand wash of a wheel and paint", caption: "Hand Wash" },
+  { src: "/images/gallery-headlight.jpg", alt: "Headlight restoration close up", caption: "Headlight Restoration" },
+  { src: "/images/gallery-luxury-interior.jpg", alt: "Luxury interior with ambient lighting", caption: "Luxury Interiors" },
+  { src: "/images/gallery-gloss.jpg", alt: "Deep gloss reflection on detailed paint", caption: "Gloss Enhancement" },
+  { src: "/images/gallery-exterior.jpg", alt: "Black sports car exterior detail", caption: "Exterior Detail" },
+  { src: "/images/gallery-wheels-tires.jpg", alt: "Foam wash on wheels and tires", caption: "Wheels & Tires" },
+  { src: "/images/gallery-showroom-finish.jpg", alt: "Finished car with a showroom glow", caption: "Showroom Finish" },
 ];

@@ -42,8 +42,8 @@ export default function Navbar() {
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
         <a href="#top" className="flex items-center gap-3" aria-label={BUSINESS.name}>
           <Image
-            src="/logo.svg"
-            alt="Auto Glo logo"
+            src="/logo.png"
+            alt="Auto Glo Mobile Detailing logo"
             width={44}
             height={44}
             className="h-11 w-11 rounded-full"
