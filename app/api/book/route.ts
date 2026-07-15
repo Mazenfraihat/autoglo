@@ -28,7 +28,11 @@ type Payload = {
 };
 
 const TO = "info@detailingautoglo.com";
-const FROM = process.env.BOOKING_FROM || "Auto Glo Bookings <onboarding@resend.dev>";
+// Sends from the verified domain. Requires detailingautoglo.com to be verified
+// in Resend. Override with BOOKING_FROM env var if needed.
+const FROM =
+  process.env.BOOKING_FROM ||
+  "Auto Glo Mobile Detailing <info@detailingautoglo.com>";
 
 export async function POST(req: Request) {
   let body: Payload;
@@ -118,8 +122,7 @@ export async function POST(req: Request) {
     const { error } = await resend.emails.send({
       from: FROM,
       to: [TO],
-      replyTo: phone ? `${name} <${TO}>` : undefined,
-      subject: `New Booking — ${name} · ${serviceLabel} (${sizeLabel})`,
+      subject: `New Booking Request — ${name} (${serviceLabel})`,
       html,
       text: `New booking request for ${BUSINESS.name}\n\n${text}`,
     });
