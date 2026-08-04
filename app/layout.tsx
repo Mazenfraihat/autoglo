@@ -18,7 +18,7 @@ const inter = Inter({
 const SITE_URL = "https://detailingautoglo.com";
 const TITLE = "Auto Glo Mobile Detailing — Premium Mobile Detailing in Pomona, CA";
 const DESCRIPTION =
-  "Premium mobile and shop car detailing in Pomona & the Inland Empire. Foam washes, ceramic protection, interior restoration — showroom-ready results that come to you. Detail Driven, Showroom Glow.";
+  "Premium mobile car detailing in Pomona & the Inland Empire. Foam washes, ceramic protection, interior restoration — showroom-ready results that come to you. Detail Driven, Showroom Glow.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

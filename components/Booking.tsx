@@ -89,7 +89,7 @@ export default function Booking() {
               Reserve your detail in seconds.
             </h2>
             <p className="mt-5 text-white/70">
-              Tell us about your car and we&apos;ll confirm your time. Mobile and in-shop
+              Tell us about your car and we&apos;ll confirm your time. Mobile
               appointments available across {BUSINESS.area}.
             </p>
 

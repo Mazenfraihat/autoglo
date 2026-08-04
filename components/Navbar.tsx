@@ -7,6 +7,7 @@ import { Phone, Menu, Close } from "./Icons";
 
 const LINKS = [
   { href: "#about", label: "About" },
+  { href: "#reviews", label: "Reviews" },
   { href: "#services", label: "Services" },
   { href: "#gallery", label: "Gallery" },
   { href: "#book", label: "Get A Quote" },

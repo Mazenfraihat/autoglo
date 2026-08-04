@@ -22,7 +22,7 @@ export const TRUST_POINTS = [
 ];
 
 export const ABOUT_COPY =
-  "At Auto Glo Detailing, we're passionate about bringing out the absolute best in your vehicle. From daily drivers to luxury cars, our expert team provides premium mobile and shop detailing designed to protect your investment and keep your ride looking showroom-ready. We don't just clean cars—we elevate them.";
+  "At Auto Glo Detailing, we're passionate about bringing out the absolute best in your vehicle. From daily drivers to luxury cars, our expert team provides premium mobile detailing designed to protect your investment and keep your ride looking showroom-ready. We don't just clean cars—we elevate them.";
 
 export const WHY_CHOOSE = [
   {
@@ -135,8 +135,44 @@ export const GALLERY: GalleryImage[] = [
   { src: "/images/gallery-hand-wash.jpg", alt: "Careful hand wash of a wheel and paint", caption: "Hand Wash" },
   { src: "/images/gallery-headlight.jpg", alt: "Headlight restoration close up", caption: "Headlight Restoration" },
   { src: "/images/gallery-luxury-interior.jpg", alt: "Luxury interior with ambient lighting", caption: "Luxury Interiors" },
-  { src: "/images/gallery-gloss.jpg", alt: "Deep gloss reflection on detailed paint", caption: "Gloss Enhancement" },
-  { src: "/images/gallery-exterior.jpg", alt: "Black sports car exterior detail", caption: "Exterior Detail" },
+  // Real customer photos (files dropped into /public)
+  { src: "/customer-camaro.jpg", alt: "Freshly detailed customer Chevrolet Camaro", caption: "Customer Camaro" },
+  { src: "/customer-altima.jpg", alt: "Freshly detailed customer Nissan Altima", caption: "Customer Altima" },
   { src: "/images/gallery-wheels-tires.jpg", alt: "Foam wash on wheels and tires", caption: "Wheels & Tires" },
   { src: "/images/gallery-showroom-finish.jpg", alt: "Finished car with a showroom glow", caption: "Showroom Finish" },
+];
+
+export type Review = {
+  name: string;
+  badge?: string;
+  text: string;
+};
+
+/** Real Google reviews — text used verbatim. */
+export const REVIEWS: Review[] = [
+  {
+    name: "Eli Reyes",
+    text: "Great experience, fast turnaround and proper service. Had a Corolla coming back spotless. Recommend for the price 👍",
+  },
+  {
+    name: "Hamidehh",
+    badge: "Local Guide",
+    text: "The work is really good. I was impressed, so I definitely have to leave a review! This business is communicative and concerned with making sure the consumer is happy, which is a huge plus. Sometimes companies just dont care. I would definitely recommend to anyone looking for a worthwhile clean. Thanks a lot!",
+  },
+  {
+    name: "Zubair Ibrahim",
+    text: "I never had my car detailed before & this was easily one of the best experiences I've had. Great work and fair pricing.",
+  },
+  {
+    name: "Zayd Aweinat",
+    text: "Got my car detailed with them inside and out my car looks amazing never been cleaner like this except when I got it brand new from the dealership. Highly recommend!",
+  },
+  {
+    name: "Talha Mala",
+    text: "Auto Glo Detailing is definitely the best detailing company I've worked with. Prices are amazing and their work is phenomenal. Highly recommend them to everyone!",
+  },
+  {
+    name: "Taylor Marie",
+    text: "AMAZING AMAZING AMAZING!!!! They have worked on 4 cars for us & they all turned out beautiful!! Their attention to detail & hard work certainly shows! Highly recommend to anyone & EVERYONE!!!",
+  },
 ];

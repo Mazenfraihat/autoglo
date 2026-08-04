@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { motion, useReducedMotion, useScroll, useTransform, type Variants } from "framer-motion";
 import { BUSINESS, TRUST_POINTS } from "@/lib/data";
-import { ArrowRight, Check, Phone, Star } from "./Icons";
+import { ArrowRight, Check, GoogleG, Phone, Star } from "./Icons";
 
 const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1];
 
@@ -61,13 +61,22 @@ export default function Hero() {
         className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-6 lg:px-8"
       >
         <motion.div variants={container} initial="hidden" animate="show" className="max-w-3xl">
-          <motion.span
-            variants={fade}
-            className="inline-flex items-center gap-2 rounded-full border border-line bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-muted backdrop-blur"
-          >
-            <span className="h-1.5 w-1.5 rounded-full bg-chrome" />
-            Serving Pomona &amp; Surrounding Areas, CA
-          </motion.span>
+          <motion.div variants={fade} className="flex flex-wrap items-center gap-3">
+            <span className="inline-flex items-center gap-2 rounded-full border border-line bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-muted backdrop-blur">
+              <span className="h-1.5 w-1.5 rounded-full bg-chrome" />
+              Serving Pomona &amp; Surrounding Areas, CA
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-full border border-line bg-white/5 px-4 py-1.5 text-xs font-semibold text-muted backdrop-blur">
+              <GoogleG className="h-3.5 w-3.5" />
+              <span className="font-bold text-white">5.0</span>
+              <span className="flex" style={{ color: "#f5b731" }}>
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="h-3.5 w-3.5" />
+                ))}
+              </span>
+              <span className="uppercase tracking-[0.15em]">on Google</span>
+            </span>
+          </motion.div>
 
           <h1 className="font-display mt-6 text-4xl font-extrabold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl">
             <span className="block overflow-hidden">
@@ -95,7 +104,7 @@ export default function Hero() {
           </motion.p>
 
           <motion.p variants={fade} className="mt-6 max-w-xl text-base leading-relaxed text-white/70 sm:text-lg">
-            Mobile and in-shop detailing that protects your investment and delivers
+            Mobile detailing that protects your investment and delivers
             showroom-ready results — foam washes, ceramic protection, and interior
             restoration, done right at your door.
           </motion.p>

@@ -23,7 +23,7 @@ export default function Footer() {
               {BUSINESS.tagline}
             </p>
             <p className="mt-4 text-sm leading-relaxed text-white/60">
-              Premium mobile &amp; shop detailing serving {BUSINESS.area}. We protect your
+              Premium mobile detailing serving {BUSINESS.area}. We protect your
               investment and deliver showroom-ready results.
             </p>
           </div>

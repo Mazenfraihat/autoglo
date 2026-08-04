@@ -129,6 +129,58 @@
   box-shadow: 0 0 0 1px rgba(229, 231, 235, 0.25), 0 24px 60px -30px rgba(0, 0, 0, 0.9);
 }
 
+/* ---------- Reviews marquee (auto-scrolling) ---------- */
+.marquee {
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 8%,
+    #000 92%,
+    transparent
+  );
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-left var(--marquee-dur, 46s) linear infinite;
+}
+.marquee-track.is-reverse {
+  animation-name: marquee-right;
+}
+/* Pause when the visitor hovers or touches the row. */
+.marquee:hover .marquee-track,
+.marquee:active .marquee-track {
+  animation-play-state: paused;
+}
+@keyframes marquee-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+@keyframes marquee-right {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    -webkit-mask-image: none;
+    mask-image: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  .marquee-track {
+    animation: none;
+  }
+}
+
 /* ---------- Scroll reveal ---------- */
 .reveal {
   opacity: 0;
