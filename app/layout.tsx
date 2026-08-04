@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
 import "./globals.css";
+import { BUILD_INFO } from "@/lib/build-info";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -58,6 +59,11 @@ export const metadata: Metadata = {
     images: ["/images/og.svg"],
   },
   robots: { index: true, follow: true },
+  // Build marker — lets us confirm which build is being served from view-source.
+  other: {
+    "x-build-sha": BUILD_INFO.shortSha,
+    "x-build-time": BUILD_INFO.builtAt,
+  },
 };
 
 export default function RootLayout({
@@ -67,6 +73,8 @@ export default function RootLayout({
     <html
       lang="en"
       data-scroll-behavior="smooth"
+      data-build-sha={BUILD_INFO.shortSha}
+      data-build-time={BUILD_INFO.builtAt}
       className={`${sora.variable} ${inter.variable}`}
     >
       <body className="min-h-dvh bg-ink text-white antialiased">{children}</body>

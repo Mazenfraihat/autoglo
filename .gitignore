@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated at build time (prebuild/predev) — regenerated every build
+/lib/build-info.ts
