@@ -4,7 +4,6 @@ import About from "@/components/About";
 import Reviews from "@/components/Reviews";
 import WhyChoose from "@/components/WhyChoose";
 import Services from "@/components/Services";
-import Gallery from "@/components/Gallery";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 import MobileBookBar from "@/components/MobileBookBar";
@@ -19,7 +18,6 @@ export default function Home() {
         <Reviews />
         <WhyChoose />
         <Services />
-        <Gallery />
         <Booking />
       </main>
       <Footer />

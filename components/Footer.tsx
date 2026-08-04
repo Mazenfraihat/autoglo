@@ -5,7 +5,6 @@ import { Phone, Mail, MapPin, Instagram, Facebook } from "./Icons";
 const NAV = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
-  { href: "#gallery", label: "Gallery" },
   { href: "#book", label: "Get A Quote" },
 ];
 
