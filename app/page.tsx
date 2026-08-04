@@ -8,6 +8,12 @@ import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
 import MobileBookBar from "@/components/MobileBookBar";
 
+// Render on every request so a fresh deploy is served immediately. Next marks
+// static pages `Cache-Control: s-maxage=31536000` (one year), which Hostinger's
+// LiteSpeed proxy pins for a year — that's why past deploys never showed up.
+// Dynamic rendering sends `no-store`, so the CDN can't cache a stale copy.
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   return (
     <>
