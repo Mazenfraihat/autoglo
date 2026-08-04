@@ -143,15 +143,8 @@
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee-left var(--marquee-dur, 46s) linear infinite;
-}
-.marquee-track.is-reverse {
-  animation-name: marquee-right;
-}
-/* Pause when the visitor hovers or touches the row. */
-.marquee:hover .marquee-track,
-.marquee:active .marquee-track {
-  animation-play-state: paused;
+  /* Never pauses — continuous, seamless drift in one direction. */
+  animation: marquee-left var(--marquee-dur, 36s) linear infinite;
 }
 @keyframes marquee-left {
   from {
@@ -159,14 +152,6 @@
   }
   to {
     transform: translate3d(-50%, 0, 0);
-  }
-}
-@keyframes marquee-right {
-  from {
-    transform: translate3d(-50%, 0, 0);
-  }
-  to {
-    transform: translate3d(0, 0, 0);
   }
 }
 @media (prefers-reduced-motion: reduce) {

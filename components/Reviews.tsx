@@ -48,18 +48,17 @@ function ReviewCard({ review }: { review: Review }) {
 /** One seamless marquee row — content is duplicated so the loop has no seam. */
 function MarqueeRow({
   items,
-  reverse = false,
-  duration = "46s",
+  duration = "36s",
 }: {
   items: Review[];
-  reverse?: boolean;
   duration?: string;
 }) {
+  // Duplicate the set so the -50% keyframe wraps with no visible seam.
   const doubled = [...items, ...items];
   return (
     <div className="marquee overflow-hidden py-2">
       <div
-        className={`marquee-track items-stretch ${reverse ? "is-reverse" : ""}`}
+        className="marquee-track items-stretch"
         style={{ "--marquee-dur": duration } as React.CSSProperties}
       >
         {doubled.map((review, i) => (
@@ -71,10 +70,6 @@ function MarqueeRow({
 }
 
 export default function Reviews() {
-  // Two rows drifting in opposite directions for a premium, dynamic feel.
-  const topRow = REVIEWS;
-  const bottomRow = [...REVIEWS.slice(3), ...REVIEWS.slice(0, 3)];
-
   return (
     <section id="reviews" className="relative overflow-hidden border-t border-line bg-ink py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
@@ -97,9 +92,8 @@ export default function Reviews() {
         </Reveal>
       </div>
 
-      <Reveal delay={80} className="mt-12 flex flex-col gap-4">
-        <MarqueeRow items={topRow} duration="52s" />
-        <MarqueeRow items={bottomRow} reverse duration="64s" />
+      <Reveal delay={80} className="mt-12">
+        <MarqueeRow items={REVIEWS} duration="36s" />
       </Reveal>
     </section>
   );
