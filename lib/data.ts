@@ -135,9 +135,8 @@ export const GALLERY: GalleryImage[] = [
   { src: "/images/gallery-hand-wash.jpg", alt: "Careful hand wash of a wheel and paint", caption: "Hand Wash" },
   { src: "/images/gallery-headlight.jpg", alt: "Headlight restoration close up", caption: "Headlight Restoration" },
   { src: "/images/gallery-luxury-interior.jpg", alt: "Luxury interior with ambient lighting", caption: "Luxury Interiors" },
-  // Real customer photos (files dropped into /public)
-  { src: "/customer-camaro.jpg", alt: "Freshly detailed customer Chevrolet Camaro", caption: "Customer Camaro" },
-  { src: "/customer-altima.jpg", alt: "Freshly detailed customer Nissan Altima", caption: "Customer Altima" },
+  { src: "/images/gallery-gloss.jpg", alt: "Deep gloss reflection on detailed paint", caption: "Gloss Enhancement" },
+  { src: "/images/gallery-exterior.jpg", alt: "Black sports car exterior detail", caption: "Exterior Detail" },
   { src: "/images/gallery-wheels-tires.jpg", alt: "Foam wash on wheels and tires", caption: "Wheels & Tires" },
   { src: "/images/gallery-showroom-finish.jpg", alt: "Finished car with a showroom glow", caption: "Showroom Finish" },
 ];
